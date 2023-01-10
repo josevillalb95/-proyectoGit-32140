@@ -3,7 +3,7 @@ const app = express()
 
 app.use(express.static('public'))
 
-app.get('/', (req,res) => {
+app.get('/saludo', (req,res) => {
     res.send('Hola Node.js desde VERECEL!');
 })
 
